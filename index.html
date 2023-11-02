@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photoblog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,126 +18,131 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <ul class="list nav-list">
-          <li class="nav-item"><a href="" class="nav-link">lifestyle</a></li>
-          <li class="nav-item"><a href="" class="nav-link">photodiary</a></li>
-          <li class="nav-item"><a href="" class="nav-link">music</a></li>
-          <li class="nav-item"><a href="" class="nav-link">travel</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="nav">
+          <ul class="list nav-list">
+            <li class="nav-item"><a href="" class="nav-link">lifestyle</a></li>
+            <li class="nav-item"><a href="" class="nav-link">photodiary</a></li>
+            <li class="nav-item"><a href="" class="nav-link">music</a></li>
+            <li class="nav-item"><a href="" class="nav-link">travel</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <section class="main-content">
-        <ul class="list main-content-list">
-          <li class="main-content-item">
-            <article class="main-content-box">
-              <img
-                src="./images/photoblog_img1.jpg"
-                alt="a girl in the crowd"
-                class="main-content-img"
-              />
-              <p class="main-content-subtitle">lifestyle</p>
-              <h2 class="main-content-item-title">
-                More than just a music festival
-              </h2>
-              <p class="main-content-item-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="main-content-item">
-            <article class="main-content-box">
-              <img
-                src="./images/photoblog_img2.jpg"
-                alt="hot coffee"
-                class="main-content-img"
-              />
-              <p class="main-content-subtitle">lifestyle</p>
-              <h2 class="main-content-item-title">
-                Life tastes better with coffee
-              </h2>
-              <p class="main-content-item-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="main-content-item">
-            <article class="main-content-box">
-              <img
-                src="./images/photoblog_img3.jpg"
-                alt="two girls in San Francisco"
-                class="main-content-img"
-              />
-              <p class="main-content-subtitle">photodiary</p>
-              <h2 class="main-content-item-title">American dream</h2>
-              <p class="main-content-item-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="main-content-item">
-            <article class="main-content-box">
-              <img
-                src="./images/photoblog_img4.jpg"
-                alt="a guy in a hat and jacket"
-                class="main-content-img"
-              />
-              <p class="main-content-subtitle">photodiary</p>
-              <h2 class="main-content-item-title">A day exploring the Alps</h2>
-              <p class="main-content-item-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="main-content-item">
-            <article class="main-content-box">
-              <img
-                src="./images/photoblog_img5.jpg"
-                alt="a girl in a hat is walking along the road"
-                class="main-content-img"
-              />
-              <p class="main-content-subtitle">lifestyle</p>
-              <h2 class="main-content-item-title">Top 10 song for running</h2>
-              <p class="main-content-item-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="main-content-item">
-            <article class="main-content-box">
-              <img
-                src="./images/photoblog_img6.jpg"
-                alt="snowy road"
-                class="main-content-img"
-              />
-              <p class="main-content-subtitle">lifestyle</p>
-              <h2 class="main-content-item-title">Cold winter days</h2>
-              <p class="main-content-item-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-        </ul>
-        <button type="button" class="main-content-btn">Load more</button>
+        <div class="container">
+          <h1 class="visually-hidden">Gallery photoblog</h1>
+          <ul class="list main-content-list">
+            <li class="main-content-item">
+              <article class="main-content-box">
+                <img
+                  src="./images/photoblog_img1.jpg"
+                  alt="a girl in the crowd"
+                  class="main-content-img"
+                />
+                <p class="main-content-subtitle">lifestyle</p>
+                <h2 class="main-content-item-title">
+                  More than just a music festival
+                </h2>
+                <p class="main-content-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="main-content-item">
+              <article class="main-content-box">
+                <img
+                  src="./images/photoblog_img2.jpg"
+                  alt="hot coffee"
+                  class="main-content-img"
+                />
+                <p class="main-content-subtitle">lifestyle</p>
+                <h2 class="main-content-item-title">
+                  Life tastes better with coffee
+                </h2>
+                <p class="main-content-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="main-content-item">
+              <article class="main-content-box">
+                <img
+                  src="./images/photoblog_img3.jpg"
+                  alt="two girls in San Francisco"
+                  class="main-content-img"
+                />
+                <p class="main-content-subtitle">photodiary</p>
+                <h2 class="main-content-item-title">American dream</h2>
+                <p class="main-content-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="main-content-item">
+              <article class="main-content-box">
+                <img
+                  src="./images/photoblog_img4.jpg"
+                  alt="a guy in a hat and jacket"
+                  class="main-content-img"
+                />
+                <p class="main-content-subtitle">photodiary</p>
+                <h2 class="main-content-item-title">A day exploring the Alps</h2>
+                <p class="main-content-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="main-content-item">
+              <article class="main-content-box">
+                <img
+                  src="./images/photoblog_img5.jpg"
+                  alt="a girl in a hat is walking along the road"
+                  class="main-content-img"
+                />
+                <p class="main-content-subtitle">lifestyle</p>
+                <h2 class="main-content-item-title">Top 10 song for running</h2>
+                <p class="main-content-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="main-content-item">
+              <article class="main-content-box">
+                <img
+                  src="./images/photoblog_img6.jpg"
+                  alt="snowy road"
+                  class="main-content-img"
+                />
+                <p class="main-content-subtitle">lifestyle</p>
+                <h2 class="main-content-item-title">Cold winter days</h2>
+                <p class="main-content-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+          </ul>
+          <button type="button" class="main-content-btn">Load more</button>
+        </div>
       </section>
     </main>
   </body>
