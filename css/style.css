@@ -92,6 +92,9 @@ img {
   margin-right: 65px;
 }
 .main-content-img {
+  margin-bottom: 62px;
+}
+.main-content-item:nth-child(n + 3) .main-content-img{
   margin-bottom: 32px;
 }
 .main-content-subtitle {
