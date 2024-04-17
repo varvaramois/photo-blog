@@ -2,6 +2,10 @@
   padding-top: 71px;
   padding-bottom: 92px;
 }
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
 .nav__list {
   display: flex;
   justify-content: center;

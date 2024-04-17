@@ -14,19 +14,71 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
-  <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <nav class="nav">
           <ul class="list nav__list">
-            <li class="nav__item"><a href="" class="nav__link nav__link--current link">lifestyle</a></li>
-            <li class="nav__item"><a href="" class="nav__link link">photodiary</a></li>
-            <li class="nav__item"><a href="" class="nav__link link">music</a></li>
-            <li class="nav__item"><a href="" class="nav__link link">travel</a></li>
+            <li class="nav__item">
+              <a href="" class="nav__link nav__link--current link">lifestyle</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">photodiary</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">music</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">travel</a>
+            </li>
           </ul>
         </nav>
+          <button
+            class="menu-open js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            menu
+          </button>
+          <div class="menu-container js-menu-container">
+          <ul class="mobile-menu__list list">
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu__link nav__link--current link"
+                >lifestyle</a
+              >
+            </li>
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu__link link">photodiary</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu__link link">music</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="" class="mobile-menu__link link">travel</a>
+            </li>
+          </ul>
+          <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          >
+          <svg
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          >
+          <path
+          fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"
+          ></path>
+          </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -46,10 +98,10 @@
                   More than just a music festival
                 </h2>
                 <p class="main-content-item-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
                 </p>
               </article>
             </li>
@@ -65,10 +117,10 @@
                   Life tastes better with coffee
                 </h2>
                 <p class="main-content__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
                 </p>
               </article>
             </li>
@@ -82,10 +134,10 @@
                 <p class="main-content__subtitle">photodiary</p>
                 <h2 class="main-content__title">American dream</h2>
                 <p class="main-content__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
                 </p>
               </article>
             </li>
@@ -99,10 +151,10 @@
                 <p class="main-content__subtitle">photodiary</p>
                 <h2 class="main-content__title">A day exploring the Alps</h2>
                 <p class="main-content__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
                 </p>
               </article>
             </li>
@@ -116,10 +168,10 @@
                 <p class="main-content__subtitle">lifestyle</p>
                 <h2 class="main-content__title">Top 10 song for running</h2>
                 <p class="main-content__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
                 </p>
               </article>
             </li>
@@ -133,10 +185,10 @@
                 <p class="main-content__subtitle">lifestyle</p>
                 <h2 class="main-content__title">Cold winter days</h2>
                 <p class="main-content__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
                 </p>
               </article>
             </li>
@@ -145,5 +197,6 @@
         </div>
       </section>
     </main>
+    <script src="./js/mobail-menu.js"></script>
   </body>
 </html>
