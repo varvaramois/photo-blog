@@ -192,6 +192,10 @@ img {
   border: none;
 }
 
+.js-menu-container {
+  display: none;
+}
+
 .menu-container {
   position: fixed;
   top: 0;
